@@ -1,0 +1,58 @@
+/* Import design system */
+@import url('design-system.css');
+
+/* Global styles */
+* {
+    box-sizing: border-box;
+}
+
+/* Page container */
+.container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 2rem;
+}
+
+/* Content area */
+.content {
+    padding: 2rem;
+    min-height: 400px;
+}
+
+/* Footer */
+footer {
+    background: var(--color-primary);
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    margin-top: 2rem;
+}
+
+/* Breadcrumbs */
+.breadcrumb-section {
+    background: var(--color-bg-secondary);
+    padding: 0.5rem 2rem;
+    font-size: var(--font-size-body-small);
+    border-bottom: 1px solid var(--color-border);
+}
+
+.breadcrumb-section a {
+    color: var(--color-primary);
+    text-decoration: none;
+}
+
+.breadcrumb-section a:hover {
+    text-decoration: underline;
+}
+
+/* Shuffle text animation */
+.shuffle-text {
+    display: inline-block;
+    overflow: hidden;
+    color: aliceblue;
+}
+
+.shuffle-char {
+    display: inline-block;
+    will-change: transform, opacity;
+}
